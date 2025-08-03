@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "424780299531",
+    "project_id": "lte-notification-a23d7",
+    "storage_bucket": "lte-notification-a23d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424780299531:android:de4accc077bbd74ce4360e",
+        "android_client_info": {
+          "package_name": "com.bwt.lte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkDwUZ8J5HTCNlcKG17P7COGu0CbQzSD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424780299531:android:075632ac916d2f2ee4360e",
+        "android_client_info": {
+          "package_name": "org.act.lte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkDwUZ8J5HTCNlcKG17P7COGu0CbQzSD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+{
+ "cli": {
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk",
+        "releaseChannel": "default",
+        "distribution": "store",
+        "credentialsSource": "local"
+      }
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium",
+        "autoIncrement": true
+      },
+      "android": {
+        "releaseChannel": "default",
+        "distribution": "store",
+        "credentialsSource": "local",
+        "buildType": "app-bundle"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
