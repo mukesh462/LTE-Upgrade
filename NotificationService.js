@@ -34,6 +34,6 @@ async function registerForPushNotificationsAsync() {
     const { data: fcmToken } = await Notifications.getDevicePushTokenAsync();
     return fcmToken;
   } else {
-    alert('Must use a physical device');
+    // alert('Must use a physical device');
   }
 }
